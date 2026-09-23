@@ -1,0 +1,25 @@
+Retrieval-Augmented Generation (RAG) is an artificial intelligence technique that improves the accuracy of large language models by fetching facts from external data sources before writing an answer.
+
+How RAG Works
+
+Ingestion:
+     Documents or company data are loaded into an external storage system, such as a vector database.
+Retrieval: 
+    When you ask a question, the system searches the database for text chunks that match your query.
+Augmentation: 
+    The system adds these retrieved facts to your original question to build a richer prompt.
+Generation: 
+    The language model reads the combined prompt and writes an informed, grounded response.
+
+Why RAG is Useful
+
+Reduces Hallucinations:
+     Grounding the model in real documents stops it from making up false facts.
+Saves Money: 
+    It avoids the high cost of retraining or fine-tuning entire models with new data.
+Adds Fresh Data: 
+    It gives static models access to live or newly updated company files.
+    
+Learn more about the core mechanics through the AWS RAG Guide or read the overview on GeeksforGeeks RAG Article.
+
+Would you like to know how to build a RAG pipeline or explore different types like Graph RAG?
