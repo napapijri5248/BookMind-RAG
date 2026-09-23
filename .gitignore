@@ -10,6 +10,7 @@ wheels/
 .venv
 venv/
 env/
+uv.lock
 
 # Environment Variables & Secrets (CRITICAL)
 .env

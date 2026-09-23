@@ -1,4 +1,5 @@
-# Core environment and configuration
+# Core environment and web interface
+streamlit
 python-dotenv
 
 # LangChain and RAG components
@@ -6,50 +7,32 @@ langchain
 langchain-core
 langchain-community
 langchain-text-splitters
-langchain-openai
-langchain-mistralai
-langchain-groq
 langchain-ollama
-langchain_huggingface
-# Vector database
-chromadb
+langchain-huggingface
 langchain-chroma
 
-# LLM provider SDKs
-openai
-mistralai
-
-# Embeddings and tokenization
-tiktoken
+# Vector database and embeddings
+chromadb
 sentence-transformers
 
-# Document loading and parsing
+# Document loaders and parsing
 pypdf
-python-docx
-unstructured
 beautifulsoup4
 lxml
 markdown
 
-# Data handling and HTTP
-numpy
-pandas
+# Retrieval and external APIs
+arxiv
 requests
 httpx
 
-# API layer (optional)
-fastapi
-uvicorn[standard]
-pydantic
-python-multipart
-
-# User interface (optional)
-streamlit
-
-# RAG evaluation and observability (optional)
-ragas
-langsmith
+# Optional LLM provider SDKs
+langchain-openai
+langchain-groq
+openai
+tiktoken
 
 # Utilities
+pydantic
 tenacity
 typing-extensions

@@ -1,19 +1,30 @@
 [project]
-name = "rag-project"
+name = "bookmind-rag"
 version = "0.1.0"
-description = "Add your description here"
+description = "BookMind-RAG: Advanced Document Q&A and Retrieval Lab"
 readme = "README.md"
 authors = [
     { name = "napapijri5248", email = "jeetmandal5248@gmail.com" }
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.10"
 dependencies = [
-    "arxiv>=2.1.3,<3.0.0",
+    "streamlit>=1.40.0",
+    "python-dotenv>=1.0.0",
+    "langchain>=0.3.0",
+    "langchain-core>=0.3.0",
+    "langchain-community>=0.3.0",
+    "langchain-text-splitters>=0.3.0",
+    "langchain-ollama>=0.2.0",
+    "langchain-huggingface>=0.1.0",
+    "langchain-chroma>=0.1.0",
+    "chromadb>=0.5.0",
+    "sentence-transformers>=3.0.0",
+    "pypdf>=5.0.0",
+    "arxiv>=2.1.3",
+    "beautifulsoup4>=4.12.0",
+    "requests>=2.31.0",
 ]
 
-[project.scripts]
-rag-project = "rag_project:main"
-
 [build-system]
-requires = ["uv_build>=0.12.13,<0.13.0"]
-build-backend = "uv_build"
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
